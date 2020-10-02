@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fira Code", monospace;
+}
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+nav {
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  box-shadow: 5px -4px 20px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  padding: 1rem;
+  background-color: #166fe5;
+  list-style: none;
+  color: rgb(255, 255, 255);
+}
+.hero {
+  min-height: 60vh;
+  background-image: url(images/cover-profile.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.hero h2 {
+  text-align: center;
+  margin: 2rem;
+}
+.hero button {
+  padding: 1rem 2rem;
+  background: #166fe5;
+  border: none;
+  color: white;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+.intro {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 1rem;
+}
+.intro img {
+  width: 100%;
+}
+.intro-img {
+  flex: 1 1 20rem;
+}
+.intro-text {
+  flex: 1 1 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.intro-text h1 {
+  padding: 2rem;
+}
+.intro-text p {
+  padding: 1rem;
+  text-align: justify;
+}
+.container {
+  margin: 0 2rem;
+  width: 90%;
+  flex-wrap: wrap;
+}
+.employee {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 2rem 0;
+}
+.box {
+  width: 50vh;
+  text-align: center;
+  padding-bottom: 2rem;
+  transition: box-shadow 0.6s;
+}
+.box img {
+  width: 100%;
+}
+.box:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+footer {
+  padding: 1rem;
+  margin: 0%;
+  background-color: #166fe5;
+  text-align: center;
+  color: white;
+}
